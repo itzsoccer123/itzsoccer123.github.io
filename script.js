@@ -1,5 +1,3 @@
-const hash = CryptoJS.MD5('MetaCTF{a11at_4n0thing}');
-console.log(hash.toString());
 function checkAnswer() {
   const input = document.getElementById('answer').value.trim();
   const result = document.getElementById('result');
